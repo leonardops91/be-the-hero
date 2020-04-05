@@ -15,7 +15,7 @@ routes.delete('/ongs/:id', ongcontrollers.delete);
 routes.get('/incidents', incidentcontroller.index);
 routes.post('/incidents', incidentcontroller.create);
 routes.delete('/incidents/:id', incidentcontroller.delete);
-routes.search('/incidentes/:id', incidentcontroller.search);
+
 
 routes.get('/profile/', profilecontroller.index);
 

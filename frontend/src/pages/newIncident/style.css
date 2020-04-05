@@ -1,0 +1,12 @@
+.new-incident-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.new-incident-container form textarea {
+    min-height: 140px;
+    resize: vertical;
+    padding: 16px 24px;
+    line-height: 24px;
+}

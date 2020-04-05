@@ -49,13 +49,4 @@ module.exports = {
         await connection('incidents').where('id', id).delete();
         return res.status(204).send();
     },
-
-    async search (req, res) {
-        const { id } = req.params;
-
-       // const incident = await connection('incidents').where('id', id).select('*');
-
-        return res.json({ id });
-
-    }
 };

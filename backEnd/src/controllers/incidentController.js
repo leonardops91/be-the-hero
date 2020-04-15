@@ -4,7 +4,7 @@ module.exports = {
     async index (req, res) {
         //criando contador do total de registros
         const [count] = await connection('incidents').count();
-        res.header('X-Total-Count', count['count(*)']);
+        res.header('x-total-count', count['count(*)']);
         //criando paginação
         const { page = 1 } = req.query;
         const incidents = await connection('incidents')

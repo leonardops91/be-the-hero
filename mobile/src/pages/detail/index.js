@@ -48,6 +48,9 @@ export default function Detail() {
 
                 <Text style={style.incidentProperty}>Caso:</Text>
                 <Text style={style.incidentValue}>{incident.title}</Text>
+
+                <Text style={style.incidentProperty}>Descrição:</Text>
+                <Text style={style.incidentValue}>{incident.description}</Text>
                 
                 <Text style={style.incidentProperty}>Valor:</Text>
                 <Text style={style.incidentValue}>

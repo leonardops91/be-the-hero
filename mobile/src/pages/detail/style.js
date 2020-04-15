@@ -34,7 +34,8 @@ export default StyleSheet.create({
     },
     incidentValue: {
         fontSize: 15,
-        color: '#737380'
+        color: '#737380',
+        textAlign: 'justify',
     },
     contactBox: {
         padding: 24,
